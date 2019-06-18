@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/penta-financiero/static/css/main.e4d1ddca.chunk.css",
+    "main.js": "/penta-financiero/static/js/main.112dc7c1.chunk.js",
+    "main.js.map": "/penta-financiero/static/js/main.112dc7c1.chunk.js.map",
+    "runtime~main.js": "/penta-financiero/static/js/runtime~main.326d7f88.js",
+    "runtime~main.js.map": "/penta-financiero/static/js/runtime~main.326d7f88.js.map",
+    "static/js/2.a3f445e3.chunk.js": "/penta-financiero/static/js/2.a3f445e3.chunk.js",
+    "static/js/2.a3f445e3.chunk.js.map": "/penta-financiero/static/js/2.a3f445e3.chunk.js.map",
+    "index.html": "/penta-financiero/index.html",
+    "precache-manifest.e11b5f6ab3f61c35e0705893ab437ee7.js": "/penta-financiero/precache-manifest.e11b5f6ab3f61c35e0705893ab437ee7.js",
+    "service-worker.js": "/penta-financiero/service-worker.js",
+    "static/css/main.e4d1ddca.chunk.css.map": "/penta-financiero/static/css/main.e4d1ddca.chunk.css.map",
+    "static/media/Marcador de texto.png": "/penta-financiero/static/media/Marcador de texto.a2ad4b16.png"
+  }
+}
