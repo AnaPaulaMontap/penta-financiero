@@ -30,16 +30,16 @@ En caso de querer agregar más documentos en la base de datos, debemos:
 
         ` git clone https://github.com/AnaPaulaMontap/penta-financiero.git`
 
-2.- Instalar dependencias 
+2. Instalar dependencias 
 
         `npm install`
 
 
-3.- Subir los archivos en la carpeta contenedora: 
+3. Subir los archivos en la carpeta contenedora: 
 
             `./src/readXML/Files`
 
-4.- Luego de esto se deben subir los archivos a la base de datos: 
+4. Luego de esto se deben subir los archivos a la base de datos: 
 
     `  node  .src/readXML/index.js  ./src/readXML/Files `
 
