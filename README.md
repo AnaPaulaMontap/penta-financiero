@@ -41,7 +41,7 @@ En caso de querer agregar más documentos en la base de datos, debemos:
 
 4. Luego de esto se deben subir los archivos a la base de datos: 
 
-    `  node  .src/readXML/index.js  ./src/readXML/Files `
+        `  node  .src/readXML/index.js  ./src/readXML/Files `
 
 
 **Note: Debes tener instalado NodeJs en tu computador para poder ejecutar estos comandos**
