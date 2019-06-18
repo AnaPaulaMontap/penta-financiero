@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  color: #3C5052;
+  background-color: #FFFFFF
+}
+
+table {
+  width: 90vw;
+  margin: 5%;  
+}
+
+th{
+  padding: 1%;
+  
+}
+
+td{
+  border-bottom: 2px solid lightgray;
+}
+.head{
+  background-color: #F04E45;
+  color: #fff; 
+}
+.details{
+  text-align: left;
+}
+
+.footer{
+  background-color: #F04E45;
+  color: #fff; 
+  padding: 1%;
+  width: 90vw;
+  margin: 5%;
+}
+
+
