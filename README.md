@@ -1,51 +1,57 @@
+# Financial Penta Challenge
 
+This project was made for PENTA FINANCIERO in order to apply to its work team, it was made with **_ReactJs and Firebase._**
 
-# Penta Financiero Challenge
+## User Story
 
-Este proyecto fue realizado para PENTA FINANCIERO con la finalidad de postular a su equipo de trabajo, fué realizado con ReactJs y Firebase.
+The instructions were the following:
 
-## Instrucciones
+_"As a company executive, I want to see a list of all the invoices. I have sent to my customers ordered by emission data descending, so that I have a clear understanding of my receivable accounts."_
 
-Las intrucciones planteadas fueron las siguientes: 
-
-"As a company executive, I want to see a list of all the invoices I have sent to my customers ordered by emission dates descending, so that I have a clear understanding of my accounts receivable."
-
-• The software MUST be accesible from a desktop browser.
+• The software MUST be accessible from a desktop browser.
 
 • The software CAN NOT directly access the invoice files, as this files
 are securely stored in a backup tape, but the software CAN preprocess
 the invoice files and store metadata in any way you see fit.
 
-## Desarrollo del Proyecto
+## Project development
 
-Como nuestro software necesita leer la información contenida en los documentos XML pero sin ingresar a estos, lo primero fue codificar una lectura de la carpeta contenedora de los archivos, luego ir leyendo la información archivo por archivo y enviarla a una base de datos, en este caso fue utilizado los servidores de Firebase Database.
+As our software needs to read the information contained in the XML documents, but without entering them, the first thing was to access the folder containing the files, then read the information file by file and send it to a database, in this case The Firebase Database servers were used.
 
-Posterior a esto la información se extrae desde el front para presentar la información correspondiente a cada factura en el navegador. 
+After this, the data is extracted from the front to present the information corresponding to each invoice in the browser.
 
-### Intrucciones
+### Instructions
 
-En caso de querer agregar más documentos en la base de datos, debemos: 
+In case you want to add more documents in the database, we must:
 
-1. Clonar el repositorio
+1. Clone the following repository
 
-        ` git clone https://github.com/AnaPaulaMontap/penta-financiero.git`
+        git clone https://github.com/AnaPaulaMontap/penta-financiero.git
 
-2. Instalar dependencias 
+2. Install dependencies
 
-        `npm install`
-
-
-3. Subir los archivos en la carpeta contenedora: 
-
-            `./src/readXML/Files`
-
-4. Luego de esto se deben subir los archivos a la base de datos: 
-
-        `  node  .src/readXML/index.js  ./src/readXML/Files `
+        npm install
 
 
-**Note: Debes tener instalado NodeJs en tu computador para poder ejecutar estos comandos**
+3. Upload the files in the "Files" folder:
+
+            ./src/readXML/Files
+
+4. After this, the files must be uploaded to the database:
+
+        node  ./src/readXML/index.js  ./src/readXML/Files
 
 
+**Note: You must have NodeJs installed on your computer in order to execute these commands**
 
+### Deployment
 
+To show the data in the browser, you must:
+
+1. Open the terminal in the project and execute:
+
+        npm start
+
+**or**
+
+2. Click on the following [**Link**](https://AnaPaulaMontap.github.io/penta-financiero).
